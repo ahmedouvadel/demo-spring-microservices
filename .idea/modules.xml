@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-service/config.iml" filepath="$PROJECT_DIR$/config-service/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-service/config-service.iml" filepath="$PROJECT_DIR$/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-service/discovery-service.iml" filepath="$PROJECT_DIR$/discovery-service/discovery-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway.iml" filepath="$PROJECT_DIR$/gateway-service/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-service/gateway-service.iml" filepath="$PROJECT_DIR$/gateway-service/gateway-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medecin-service/medecin.iml" filepath="$PROJECT_DIR$/medecin-service/medecin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medecin-service/medecin-service.iml" filepath="$PROJECT_DIR$/medecin-service/medecin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-app-medical.iml" filepath="$PROJECT_DIR$/ms-app-medical.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patient-service/patient.iml" filepath="$PROJECT_DIR$/patient-service/patient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patient-service/patient-service.iml" filepath="$PROJECT_DIR$/patient-service/patient-service.iml" />
+    </modules>
+  </component>
+</project>

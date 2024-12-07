@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-service" />
+        <module name="medecin-service" />
+        <module name="gateway-service" />
+        <module name="patient" />
+        <module name="patient-service" />
+        <module name="config" />
+        <module name="discovery-service" />
+        <module name="gateway" />
+        <module name="medecin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="17" />
+      <module name="config-service" target="17" />
+      <module name="discovery-service" target="17" />
+      <module name="gateway" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="medecin" target="17" />
+      <module name="medecin-service" target="17" />
+      <module name="patient" target="17" />
+      <module name="patient-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="medecin" options="-parameters" />
+      <module name="medecin-service" options="-parameters" />
+      <module name="patient" options="-parameters" />
+      <module name="patient-service" options="-parameters" />
+    </option>
+  </component>
+</project>

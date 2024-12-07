@@ -2,4 +2,4 @@
 
 ## eureka
 
-<img width="500" src="https://raw.githubusercontent.com/ahmedouvadel/demo-spring-microservices/main/screenshots/screengit.png">
+<img width="700" src="https://raw.githubusercontent.com/ahmedouvadel/demo-spring-microservices/main/screenshots/screengit.png">

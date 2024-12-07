@@ -1,5 +1,5 @@
 ## 1- Screenshots 
 
-## Web
+## eureka
 
-<img width="500" src="https://raw.githubusercontent.com/ahmedouvadel/demo-spring-microservices/screenshots/main/screengit.png">
+<img width="500" src="https://raw.githubusercontent.com/ahmedouvadel/demo-spring-microservices/main/screenshots/screengit.png">

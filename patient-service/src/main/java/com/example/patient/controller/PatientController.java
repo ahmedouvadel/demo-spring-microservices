@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -28,5 +29,10 @@ public class PatientController {
     public ResponseEntity<Patient> addPatient(@RequestBody Patient patient){
         Patient patient1= servicePatient.addPatient(patient);
         return new ResponseEntity<>(patient1, HttpStatus.CREATED);
+    }
+
+    @GetMapping("{id}")
+    public Optional<Patient> getById(@PathVariable int id){
+        return servicePatient.getPatientById(id);
     }
 }

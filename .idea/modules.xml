@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/ms-app-medical.iml" filepath="$PROJECT_DIR$/ms-app-medical.iml" />
       <module fileurl="file://$PROJECT_DIR$/patient-service/patient.iml" filepath="$PROJECT_DIR$/patient-service/patient.iml" />
       <module fileurl="file://$PROJECT_DIR$/patient-service/patient-service.iml" filepath="$PROJECT_DIR$/patient-service/patient-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdv-service/rdv-service.iml" filepath="$PROJECT_DIR$/rdv-service/rdv-service.iml" />
     </modules>
   </component>
 </project>

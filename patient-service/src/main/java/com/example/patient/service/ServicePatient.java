@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -22,5 +23,10 @@ public class ServicePatient implements IServicePatient {
     @Override
     public List<Patient> allPatient() {
         return patientRepository.findAll();
+    }
+
+    @Override
+    public Optional<Patient> getPatientById(int id) {
+        return patientRepository.findById(id);
     }
 }

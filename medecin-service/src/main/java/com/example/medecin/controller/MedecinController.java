@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -29,4 +30,9 @@ public class MedecinController {
         Medecin medecin1 = serviceMedecin.addMedcin(medecin);
         return new ResponseEntity<>(medecin1, HttpStatus.ACCEPTED);
     }
+    @GetMapping("{id}")
+    public Optional<Medecin> getById(@PathVariable int id){
+        return serviceMedecin.getMedecinById(id);
+    }
+
 }
